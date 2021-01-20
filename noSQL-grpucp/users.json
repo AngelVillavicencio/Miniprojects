@@ -1,0 +1,23 @@
+{
+    "_id":"123213",
+    "nombre":"Angel villavicencio Muñoz",
+    "career":"Ingeniería Informática",
+    "description":"Estoy más aburrido XD",
+    "urlFacebook":"",
+    "urlInstagram":"",
+    "urlLinkedIn":"",
+    "projects":[
+        {
+            "id":"123213",
+            "title":"Proyecto de Robot",
+            "description":"El proyecto es de un robot que se conduce solo",
+            "participation-detail":"Participé en la interfaz"
+        },
+        {
+            "id":"12213213",
+            "title":"Proyecto de Robot",
+            "description":"El proyecto es de un robot que se conduce solo",
+            "participation-detail":"Participé en la interfaz"
+        }
+    ]
+}
