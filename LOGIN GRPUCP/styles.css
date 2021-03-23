@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 98vh;
+  background: linear-gradient(
+    180deg,
+    #003459 0%,
+    rgba(0, 52, 89, 0.45) 56.25%,
+    #003459 100%
+  );
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 60px;
+}
+p {
+  font-size: 30px;
+}
+
+.formulario {
+  text-align: center;
+}
+
+.inputText {
+  height: 50px;
+  margin: 10px 0px;
+}
+
+.inputText::placeholder {
+  color: black;
+  padding: 10px;
+}
+
+.inputButton {
+  height: 50px;
+  margin: 10px 0px;
+  background-color: black;
+  border: none;
+  color: white;
+}

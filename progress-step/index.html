@@ -7,19 +7,21 @@
 </head>
 <body>
     <style>
-        .container{
+        .container {
             display: flex;
             flex-direction: column;
             align-items: center;
             text-align: center;
         }
-        .progress-container{
+    
+        .progress-container {
             display: flex;
             justify-content: space-between;
             /*border: 1px solid black;*/
             position: relative;
         }
-        .circle{
+    
+        .circle {
             width: 25px;
             height: 25px;
             background-color: white;
@@ -33,11 +35,13 @@
             cursor: pointer;
             transition: 0.4s ease;
         }
-        .active{
-            border: 3px solid #3498DB ;
+    
+        .active {
+            border: 3px solid #3498DB;
         }
-        button{
-            background-color: #3498DB ;
+    
+        button {
+            background-color: #3498DB;
             border-radius: 5px;
             border: none;
             color: white;
@@ -47,12 +51,12 @@
             text-decoration: none;
             cursor: pointer;
         }
-        
-        button:focus{
+    
+        button:focus {
             outline: none;
         }
-
-        #progress{
+    
+        #progress {
             position: absolute;
             width: 0px;
             height: 3px;

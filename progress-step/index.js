@@ -4,6 +4,7 @@ const prevBtn = document.getElementById('prev');
 const nextBtn = document.getElementById('next');
 const circles = document.querySelectorAll('.circle');
 const progresBar = document.getElementById('progress');
+
 prevBtn.addEventListener('click', () => {
     console.log('Presionaste Atrás');
     if (index > 1) {
